@@ -1,0 +1,148 @@
+---
+title: We found this really cool thing
+author:
+  - "First Author (1,*), Second Author (2), Third Author (2), Fourth Author (3), and Last Author (1)"
+  - "_"
+  - "(1)Institute of Awesome Biology"
+  - "(2)Department of Unreplicable Research"
+  - "(3)Instituto de Ciencias"
+  - "*Email: first.author@awesomebio.edu"
+output:
+  word_document:
+    reference_docx: ms_style_template.docx
+bibliography: example.bibtex
+csl: journal-of-ecology.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(knitr)
+library(dplyr)
+```
+
+# L1 Abstract
+1. Big concept/challenge
+
+2. Methods I
+
+3. Methods II
+
+4. Results
+
+5. Take-home point
+
+Or as a paragraph In ut ligula non felis convallis egestas vitae non eros. Proin ut venenatis turpis. Vivamus at auctor neque, et pellentesque ante. Aliquam pellentesque semper viverra. Nullam in tempus risus. Etiam lorem leo, malesuada a nisl vitae, fermentum commodo neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin suscipit, eros porttitor maximus consectetur, justo ligula eleifend leo, ac tincidunt libero odio eget eros. Morbi vulputate euismod nisi sit amet lobortis. Nulla lectus eros, gravida vitae ligula mollis, varius posuere nulla. Phasellus accumsan tincidunt tellus quis egestas. Donec et nibh ut felis dictum vehicula. Nulla porttitor sodales quam, quis volutpat diam faucibus at.
+
+##### L5 pagebreak
+
+# L1 Introduction
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit [@elton1927animal]. Aenean iaculis, ligula in sollicitudin rutrum, enim elit malesuada mauris, vitae tincidunt erat augue eget massa. Chesson [-@chesson2000mechanisms] raesent in neque quis urna dictum ornare. Phasellus tortor tortor, tincidunt et viverra id, dignissim at risus. Maecenas convallis leo vel eros aliquet lobortis. Maecenas eget turpis risus. Morbi gravida, velit et vestibulum lacinia, sem massa lacinia nibh, nec convallis leo libero non sem. Maecenas elementum eros nibh, vel tristique neque fringilla in. Quisque in cursus leo [@kraft2015plant].
+
+Nunc vitae lorem imperdiet enim vulputate cursus at a felis. Maecenas efficitur blandit nisi eu laoreet. Donec metus est, dignissim sit amet turpis sed, suscipit vestibulum leo. Vestibulum vitae ipsum dapibus, rhoncus nulla non, venenatis odio. Nam ut ante dictum, rhoncus risus sed, mollis metus. Vivamus euismod leo elit, at eleifend tellus accumsan quis. Etiam scelerisque rhoncus lectus, pharetra pretium purus suscipit quis. Donec congue quis nibh vehicula viverra. Donec vestibulum vulputate tortor id egestas. Duis ac ligula ac lorem fermentum blandit. Donec vel augue ut sapien tristique condimentum sed in mi. Praesent dignissim mauris nec neque mollis fringilla.
+
+Nam sollicitudin est nec augue venenatis posuere. Vivamus vehicula elit nec quam gravida dignissim. Phasellus vulputate condimentum ipsum, a condimentum felis sagittis vitae. Maecenas cursus aliquam iaculis. Fusce non nulla bibendum, fermentum ipsum ac, iaculis ipsum. Aliquam erat volutpat. Nullam ut ultricies enim. Mauris sollicitudin magna placerat tortor luctus dictum. Proin augue purus, tristique luctus porttitor sed, convallis eu ante. Praesent id lacus neque. Donec sit amet mauris vitae neque elementum placerat. Vivamus ac commodo diam. Aliquam at odio ut libero vestibulum dignissim. Suspendisse ultrices nisi metus, tristique ornare justo commodo ut.
+
+Here we...
+
+# L1 Methods
+Nunc et purus ligula. Morbi nec eros in orci gravida placerat id id magna. Cras et euismod augue. Cras ac leo elit. In commodo ligula purus, eu egestas velit vestibulum vitae. Mauris tristique consequat felis at aliquam. Donec ipsum urna, efficitur sed cursus in, fermentum in eros.
+
+## L2 Our great model
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare nunc eleifend nibh tempor, nec vehicula nulla accumsan. Mauris posuere sed nulla vitae dictum. Etiam vel blandit sapien. Mauris rutrum iaculis elit sed fringilla. Cras accumsan felis lectus, a faucibus odio egestas ac. Aliquam erat volutpat. Integer non auctor est. Ut in elit sit amet neque iaculis lobortis ut vitae magna. Praesent eleifend lorem vitae eleifend placerat. Phasellus volutpat efficitur justo vitae dapibus. Suspendisse at nibh purus. Nulla tincidunt non orci et facilisis. Maecenas interdum tellus ipsum, eget luctus tortor tincidunt quis. Nullam eget ullamcorper lacus. Pellentesque non imperdiet purus. Nulla cursus nisi et erat rhoncus, id vehicula neque posuere.
+
+Proin sollicitudin viverra commodo. Nullam volutpat aliquet metus, nec auctor dolor vestibulum vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam sodales consectetur rhoncus. Nullam vel placerat odio. Mauris placerat rutrum maximus. Quisque imperdiet lorem sit amet accumsan rhoncus. Nulla sapien erat, rutrum nec scelerisque in, posuere eu metus. Aliquam lacinia, nunc ultricies porta tristique, nunc lectus posuere ex, sed fermentum eros arcu at tortor. Fusce id est ut neque blandit efficitur. Curabitur dignissim faucibus nulla quis dictum. Proin luctus tempor leo, ac semper ante dignissim id.
+
+$$This=\frac{s\omega\epsilon\epsilon\tau}{equation}*NoTags!$$
+
+## L2 How we parameterized it
+Cras imperdiet metus sed arcu dignissim porta. Nullam pulvinar ornare nisl, ut hendrerit lectus ullamcorper eu. Sed quis sapien vitae sapien aliquet accumsan ac ac velit. In varius nunc libero, sit amet lacinia eros sollicitudin ac. Praesent egestas vehicula tortor nec cursus. Suspendisse varius quis orci sit amet commodo. Nulla mattis nec enim ut aliquam. Integer rutrum, neque vitae porttitor molestie, purus augue pretium dui, vel vulputate ligula dolor vitae libero. In hac habitasse platea dictumst. Sed porttitor neque vel felis tincidunt laoreet.
+
+### L3 First experiement
+Nunc sed auctor sem. Integer ac justo enim. In dui turpis, fringilla in dui et, ultrices posuere dolor. Quisque at urna quis elit vulputate efficitur et eu neque. Nullam varius eros vitae varius euismod. Proin interdum, mauris a consectetur viverra, tellus nibh imperdiet neque, ullamcorper condimentum velit eros eu turpis. Fusce venenatis massa nec tortor tempor ultrices. Vestibulum consectetur urna vitae porttitor tincidunt.
+
+#### L4 Field methods
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare nunc eleifend nibh tempor, nec vehicula nulla accumsan. Mauris posuere sed nulla vitae dictum. Etiam vel blandit sapien. Mauris rutrum iaculis elit sed fringilla. Cras accumsan felis lectus, a faucibus odio egestas ac. Aliquam erat volutpat. Integer non auctor est. Ut in elit sit amet neque iaculis lobortis ut vitae magna. Praesent eleifend lorem vitae eleifend placerat. Phasellus volutpat efficitur justo vitae dapibus. Suspendisse at nibh purus. Nulla tincidunt non orci et facilisis. Maecenas interdum tellus ipsum, eget luctus tortor tincidunt quis. Nullam eget ullamcorper lacus. Pellentesque non imperdiet purus. Nulla cursus nisi et erat rhoncus, id vehicula neque posuere.
+
+#### L4 Statistical wizardry
+Nunc et purus ligula. Morbi nec eros in orci gravida placerat id id magna. Cras et euismod augue. Cras ac leo elit. In commodo ligula purus, eu egestas velit vestibulum vitae. Mauris tristique consequat felis at aliquam. Donec ipsum urna, efficitur sed cursus in, fermentum in eros.
+
+### L3 Second experiment
+Nunc sed auctor sem. Integer ac justo enim. In dui turpis, fringilla in dui et, ultrices posuere dolor. Quisque at urna quis elit vulputate efficitur et eu neque. Nullam varius eros vitae varius euismod. Proin interdum, mauris a consectetur viverra, tellus nibh imperdiet neque, ullamcorper condimentum velit eros eu turpis. Fusce venenatis massa nec tortor tempor ultrices. Vestibulum consectetur urna vitae porttitor tincidunt.
+
+#### L4 Field methods
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare nunc eleifend nibh tempor, nec vehicula nulla accumsan. Mauris posuere sed nulla vitae dictum. Etiam vel blandit sapien. Mauris rutrum iaculis elit sed fringilla. Cras accumsan felis lectus, a faucibus odio egestas ac. Aliquam erat volutpat. Integer non auctor est. Ut in elit sit amet neque iaculis lobortis ut vitae magna. Praesent eleifend lorem vitae eleifend placerat. Phasellus volutpat efficitur justo vitae dapibus. Suspendisse at nibh purus. Nulla tincidunt non orci et facilisis. Maecenas interdum tellus ipsum, eget luctus tortor tincidunt quis. Nullam eget ullamcorper lacus. Pellentesque non imperdiet purus. Nulla cursus nisi et erat rhoncus, id vehicula neque posuere.
+
+#### L4 Statistical wizardry
+Nunc et purus ligula. Morbi nec eros in orci gravida placerat id id magna. Cras et euismod augue. Cras ac leo elit. In commodo ligula purus, eu egestas velit vestibulum vitae. Mauris tristique consequat felis at aliquam. Donec ipsum urna, efficitur sed cursus in, fermentum in eros.
+
+# L1 Results
+Ut mattis enim vitae purus consequat, eget euismod purus aliquam. Praesent fermentum magna ac est pellentesque, ac commodo mauris tempus. Praesent non accumsan velit. Morbi dictum velit sit amet dignissim malesuada. Duis lobortis hendrerit ipsum, quis dapibus odio euismod imperdiet. Etiam sed gravida lorem, suscipit vehicula dui. Praesent ornare ultrices mollis. Vestibulum ac laoreet mi, vel euismod massa. Suspendisse nec convallis orci. Aliquam sit amet sodales ipsum. Phasellus consectetur tristique urna, ut lobortis purus. Morbi convallis convallis orci ac ullamcorper. Praesent euismod tincidunt sem, et feugiat ligula cursus at. Nulla ullamcorper, erat eget pulvinar elementum, massa diam ultrices lectus, eget molestie neque ipsum in neque. Mauris ut aliquet dolor, a pretium erat. Phasellus ut elit non nisl congue consectetur.
+
+Quisque sit amet gravida orci, a iaculis nisl. In felis nisl, laoreet at massa posuere, consequat venenatis mauris. Mauris eu tortor rutrum, faucibus risus id, bibendum purus. Nunc egestas sagittis mauris id maximus. Etiam volutpat ipsum vel velit eleifend, eu sollicitudin ipsum elementum. Donec nibh tortor, tempor non dolor nec, sodales lobortis lacus. In commodo eget libero non efficitur. In non urna condimentum, scelerisque nulla vitae, facilisis mauris. Aliquam posuere, velit in mattis interdum, felis nisl convallis mi, eu vestibulum dui tellus eu elit. Nam in ipsum nisl.
+
+# L1 Discussion
+Integer efficitur, massa quis cursus iaculis, orci ex blandit est, sit amet luctus nisl diam non diam. Phasellus blandit lorem metus, at efficitur ante mollis sed. Pellentesque mi lectus, lobortis vitae luctus in, pretium nec ligula. Nulla a suscipit est. Praesent gravida est odio, at convallis leo malesuada quis. Vivamus venenatis pellentesque volutpat. Donec dictum sodales efficitur. In hac habitasse platea dictumst. Morbi nec dapibus libero. Aliquam bibendum ante lectus, nec tincidunt nunc mattis a. Suspendisse nec velit at ligula rutrum rhoncus non vel est. Integer ullamcorper dolor arcu, lobortis auctor risus varius sed. Donec eget neque vitae orci ultricies interdum.
+
+Nunc aliquam, lacus sed hendrerit iaculis, lorem tortor dictum nunc, eget feugiat lacus odio sed velit. Nam ligula justo, mattis ac lobortis at, varius placerat tellus. Pellentesque dictum tortor et pharetra hendrerit. Nunc elementum augue ligula, a sagittis ipsum iaculis ac. Phasellus id mauris finibus, viverra ligula vitae, maximus metus. Aenean in lacus rutrum, auctor erat ac, placerat purus. Sed odio sapien, scelerisque eu commodo a, dignissim sit amet mauris. Sed venenatis odio quis sem iaculis, ullamcorper tempus turpis blandit.
+
+Quisque sit amet gravida orci, a iaculis nisl. In felis nisl, laoreet at massa posuere, consequat venenatis mauris. Mauris eu tortor rutrum, faucibus risus id, bibendum purus. Nunc egestas sagittis mauris id maximus. Etiam volutpat ipsum vel velit eleifend, eu sollicitudin ipsum elementum. Donec nibh tortor, tempor non dolor nec, sodales lobortis lacus. In commodo eget libero non efficitur. In non urna condimentum, scelerisque nulla vitae, facilisis mauris. Aliquam posuere, velit in mattis interdum, felis nisl convallis mi, eu vestibulum dui tellus eu elit. Nam in ipsum nisl.
+
+Integer aliquet accumsan lorem a consectetur. Etiam vel vehicula augue. Quisque venenatis tincidunt metus at convallis. Donec a nulla velit. Nullam imperdiet leo at egestas suscipit. Suspendisse lacinia tincidunt felis eu egestas. Pellentesque eros quam, blandit eget lectus vel, cursus fermentum lectus. Curabitur dapibus scelerisque tempus. Aliquam ornare iaculis nisl in hendrerit.
+
+Proin in felis a erat iaculis hendrerit eu eget dolor. Maecenas et nunc vulputate, dignissim turpis ultrices, dapibus est. In at purus pellentesque, congue tortor nec, mollis lacus. Pellentesque egestas arcu quis efficitur condimentum. Phasellus pharetra nisl id euismod imperdiet. Pellentesque venenatis massa at posuere ultricies. Mauris venenatis vehicula odio nec condimentum. Donec cursus magna ut quam accumsan, vitae egestas purus ornare. In hac habitasse platea dictumst. Mauris eros diam, pharetra ac erat quis, pulvinar euismod leo. Sed convallis a ipsum a lacinia. Aliquam facilisis leo nulla, in aliquam turpis feugiat nec. Nulla sit amet lectus ornare, mattis augue non, interdum elit. Nunc semper nisl sit amet lectus accumsan sollicitudin. Maecenas sed ex non purus porta semper maximus pharetra ipsum. Integer nibh metus, hendrerit vitae congue eget, pretium ac lectus.
+
+In ut ligula non felis convallis egestas vitae non eros. Proin ut venenatis turpis. Vivamus at auctor neque, et pellentesque ante. Aliquam pellentesque semper viverra. Nullam in tempus risus. Etiam lorem leo, malesuada a nisl vitae, fermentum commodo neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin suscipit, eros porttitor maximus consectetur, justo ligula eleifend leo, ac tincidunt libero odio eget eros. Morbi vulputate euismod nisi sit amet lobortis. Nulla lectus eros, gravida vitae ligula mollis, varius posuere nulla. Phasellus accumsan tincidunt tellus quis egestas. Donec et nibh ut felis dictum vehicula. Nulla porttitor sodales quam, quis volutpat diam faucibus at.
+
+# L1 Acknowledgements
+I'd like to thank the Academy and the Lorem Ipsum Foundation for their financial support. Reviewers 1 and 2 offered constructive criticism that improved the manuscript.
+
+##### L5 pagebreak
+
+# L1 Literature cited
+
+<div id="refs"></div>
+
+##### L5 pagebreak
+
+# L1 Tables
+**Table 1.** Here's the legend for table 1 using data from mtcars.
+```{r table,echo=F}
+df <- mtcars %>%
+    mutate(make_model = row.names(mtcars)) %>%
+    filter(cyl == 4) %>%    
+    select(make_model, mpg, wt) %>%
+    mutate(wt = wt*1000) %>%
+    arrange(make_model)
+kable(df)
+```
+
+##### L5 pagebreak
+
+# L1 Figures
+```{r,echo=F}
+plot(1:10,10:1)
+```
+
+**Fig. 1.** Here's the legend for figure 1 using a simple plot.
+
+# L1 Supplemental materials
+This is where I love to put all sorts of extra bits like ANOVA tables, because those are nice to include but are just awful in the main text. Take for example:
+
+**Table 1.** Here's the legend for table 1 using data from mtcars.
+```{r,echo=F}
+myregtable<-car::Anova(lm(mpg~cyl*wt+am,data=mtcars),type=3)
+kable(myregtable)
+```
+
+##### L5 pagebreak
+
+# L1 Appendix A
+In ut ligula non felis convallis egestas vitae non eros. Proin ut venenatis turpis. Vivamus at auctor neque, et pellentesque ante. Aliquam pellentesque semper viverra. Nullam in tempus risus. Etiam lorem leo, malesuada a nisl vitae, fermentum commodo neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin suscipit, eros porttitor maximus consectetur, justo ligula eleifend leo, ac tincidunt libero odio eget eros. Morbi vulputate euismod nisi sit amet lobortis. Nulla lectus eros, gravida vitae ligula mollis, varius posuere nulla. Phasellus accumsan tincidunt tellus quis egestas. Donec et nibh ut felis dictum vehicula. Nulla porttitor sodales quam, quis volutpat diam faucibus at.
+
+$$Demand_{equations}>Supply_{equations}$$
+
+##### L5 pagebreak 
+
+# L1 Appendix B
+Proin in felis a erat iaculis hendrerit eu eget dolor. Maecenas et nunc vulputate, dignissim turpis ultrices, dapibus est. In at purus pellentesque, congue tortor nec, mollis lacus. Pellentesque egestas arcu quis efficitur condimentum. Phasellus pharetra nisl id euismod imperdiet. Pellentesque venenatis massa at posuere ultricies. Mauris venenatis vehicula odio nec condimentum. Donec cursus magna ut quam accumsan, vitae egestas purus ornare. In hac habitasse platea dictumst. Mauris eros diam, pharetra ac erat quis, pulvinar euismod leo. Sed convallis a ipsum a lacinia. Aliquam facilisis leo nulla, in aliquam turpis feugiat nec. Nulla sit amet lectus ornare, mattis augue non, interdum elit. Nunc semper nisl sit amet lectus accumsan sollicitudin. Maecenas sed ex non purus porta semper maximus pharetra ipsum. Integer nibh metus, hendrerit vitae congue eget, pretium ac lectus.
