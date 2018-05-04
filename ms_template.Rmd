@@ -99,7 +99,7 @@ I'd like to thank the Academy and the Lorem Ipsum Foundation for their financial
 
 ##### L5 pagebreak
 
-# L1 Literature cited
+### Literature cited
 
 <div id="refs"></div>
 
